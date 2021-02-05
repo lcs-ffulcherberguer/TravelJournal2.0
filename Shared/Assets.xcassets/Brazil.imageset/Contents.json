@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "1909a859b49a5267452aea95a84b0f66--brazil-carnival-rio-brazil.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
