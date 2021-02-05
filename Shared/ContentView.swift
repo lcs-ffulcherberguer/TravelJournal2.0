@@ -31,10 +31,29 @@ struct ContentView: View {
                 .padding(.leading, 30)
                 
                 }
+            .padding(.top, 20)
+            
+            
+            VStack {
                 
+                Text("Things to do...")
+                    .font(.system(size: 20, weight: .bold, design: .rounded))
+                    .foregroundColor(Color.green)
+                
+                
+                ScrollView(.horizontal, showsIndicators: false) {
+                
+                HStack (spacing: 15){
+                    Card4()
+                    Card5()
+                    Card6()
+                    
+                    }
+                }
             }
         }
-    }
+     }
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
@@ -47,7 +66,7 @@ struct Header: View {
     
 
     HStack {
-       Text("Discover")
+       Text("Travel Journal")
           .font(.system(size: 44, weight: .bold, design: .rounded))
           .padding(.leading, 30)
       Spacer()
@@ -56,13 +75,9 @@ struct Header: View {
            .padding(.trailing, 20)
 
 
-
             }
-       }
-
+         }
      }
-
-
 
 
 struct Categories: View {
@@ -80,7 +95,7 @@ struct Categories: View {
                 
             }
             VStack {
-                Text("Rating")
+                Text("Map")
                     .font(.system(size: 16, weight: .medium, design: .rounded))
                     .foregroundColor(Color.gray)
                 RoundedRectangle(cornerRadius: 20)
@@ -188,5 +203,81 @@ struct Card2: View {
             .offset(x: -20, y: 110)
             
         }
+    }
+}
+
+struct Card4: View {
+    var body: some View {
+        ZStack {
+            VStack{
+                Text("")
+            }
+            
+            .frame(width: 95, height: 140)
+            .background(Color(#colorLiteral(red: 0.721568644, green: 0.8862745166, blue: 0.5921568871, alpha: 1)))
+            .cornerRadius(20)
+            .shadow(color: Color(#colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)).opacity(0.3), radius: 20, x: 0, y: 20)
+            .offset(y: 8)
+            
+            
+            
+            VStack {
+                Image("Hiking")
+                    .resizable()
+                    .frame(width: 30, height: 80)
+                Text("Hikes")
+                    .font(.system(size: 16, weight: .bold, design: .rounded))
+                    .padding(.top, 10)
+                
+            }
+            .frame(width: 100, height: 150)
+            .background(Color.white)
+            .cornerRadius(20)
+            
+        }
+    }
+}
+
+struct Card5: View {
+    var body: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 20)
+                .stroke(Color(#colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1)))
+            VStack {
+                Image("Kayaking")
+                    .resizable()
+                    .frame(width: 70, height: 55)
+                    .cornerRadius(25)
+                Text("Kayaking")
+                    .font(.system(size: 16, weight: .bold, design: .rounded))
+                    .padding(.top, 25)
+                
+            }
+            
+        }
+        
+        .frame(width: 100, height: 140)
+    }
+}
+
+struct Card6: View {
+    var body: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 20)
+                .stroke(Color(#colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1)))
+            VStack {
+                Image("Skiing")
+                    .resizable()
+                    .frame(width: 70, height: 55)
+                    .cornerRadius(25)
+                Text("Skiing")
+                    .font(.system(size: 16, weight: .bold, design: .rounded))
+                    .padding(.top, 25)
+                
+            }
+            
+        }
+        
+        .frame(width: 100, height: 140)
     }
 }
