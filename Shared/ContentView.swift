@@ -14,25 +14,24 @@ struct ContentView: View {
             
             Categories()
             
-            HStack{
+            
+            ScrollView(.horizontal, showsIndicators: false) {
+              
                 
-                ZStack{
-                    Image("Brazil")
-                        .resizable()
-                        .frame(width: 180, height: 250 )
-                    
-                    
-                    
-                    
-                    
-                    
-                    
+                HStack(spacing: 30){
+                
+                
+                Card1()
+                
+                Card2()
+                
+                Card3()
+                
+                    }
+                .padding(.leading, 30)
+                
                 }
-            }
-            
-            
-            
-            
+                
             }
         }
     }
@@ -107,5 +106,87 @@ struct Categories: View {
         }
         
         .padding(.leading, 30)
+    }
+}
+
+
+struct Card1: View {
+    var body: some View {
+        ZStack{
+            Image("Brazil")
+                .resizable()
+                .frame(width: 250, height: 350 )
+                .cornerRadius(20)
+            
+            
+            VStack(alignment: .leading) {
+                Text("Brazil")
+                    .foregroundColor(.white)
+                    .font(.system(size: 19, weight: .bold, design: .rounded))
+                
+                Text("Rio de Janeiro")
+                    .foregroundColor(.white)
+                    .font(.system(size: 16, weight: .medium, design: .rounded))
+                
+            }
+            .offset(x: -20, y: 110)
+            
+        }
+    }
+}
+
+struct Card3: View {
+    var body: some View {
+        ZStack{
+            Image("Iceland")
+                .resizable()
+                .frame(width: 250, height: 350 )
+                .cornerRadius(20)
+                .scaledToFill()
+            
+            
+            VStack(alignment: .leading) {
+                Text("Iceland")
+                    .foregroundColor(.white)
+                    .font(.system(size: 19, weight: .bold, design: .rounded))
+                
+                Text("Blue Lagoon")
+                    .foregroundColor(.white)
+                    .font(.system(size: 16, weight: .medium, design: .rounded))
+                
+                
+            }
+            
+            .offset(x: -20, y: 110)
+            
+            
+        }
+    }
+}
+
+struct Card2: View {
+    var body: some View {
+        ZStack{
+            Image("Greece")
+                .resizable()
+                .frame(width: 250, height: 350 )
+                .cornerRadius(20)
+            
+            
+            VStack(alignment: .leading) {
+                Text("Greece")
+                    .foregroundColor(.white)
+                    .font(.system(size: 19, weight: .bold, design: .rounded))
+                
+                Text("Santorini")
+                    .foregroundColor(.white)
+                    .font(.system(size: 16, weight: .medium, design: .rounded))
+                
+                
+            }
+            
+            .offset(x: -20, y: 110)
+            
+        }
     }
 }
