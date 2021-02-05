@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CEBD9F125CCCC42003903F0 /* TravelJournal2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBD9DE25CCCC3D003903F0 /* TravelJournal2_0App.swift */; };
+		1CEBD9F225CCCC42003903F0 /* TravelJournal2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBD9DE25CCCC3D003903F0 /* TravelJournal2_0App.swift */; };
+		1CEBD9F325CCCC42003903F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBD9DF25CCCC3D003903F0 /* ContentView.swift */; };
+		1CEBD9F425CCCC42003903F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBD9DF25CCCC3D003903F0 /* ContentView.swift */; };
+		1CEBD9F525CCCC42003903F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBD9E025CCCC42003903F0 /* Assets.xcassets */; };
+		1CEBD9F625CCCC42003903F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBD9E025CCCC42003903F0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CEBD9DE25CCCC3D003903F0 /* TravelJournal2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelJournal2_0App.swift; sourceTree = "<group>"; };
+		1CEBD9DF25CCCC3D003903F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CEBD9E025CCCC42003903F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CEBD9E525CCCC42003903F0 /* TravelJournal2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelJournal2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CEBD9E825CCCC42003903F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CEBD9ED25CCCC42003903F0 /* TravelJournal2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelJournal2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CEBD9EF25CCCC42003903F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CEBD9F025CCCC42003903F0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CEBD9E225CCCC42003903F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CEBD9EA25CCCC42003903F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CEBD9D825CCCC3D003903F0 = {
+			isa = PBXGroup;
+			children = (
+				1CEBD9DD25CCCC3D003903F0 /* Shared */,
+				1CEBD9E725CCCC42003903F0 /* iOS */,
+				1CEBD9EE25CCCC42003903F0 /* macOS */,
+				1CEBD9E625CCCC42003903F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CEBD9DD25CCCC3D003903F0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1CEBD9DE25CCCC3D003903F0 /* TravelJournal2_0App.swift */,
+				1CEBD9DF25CCCC3D003903F0 /* ContentView.swift */,
+				1CEBD9E025CCCC42003903F0 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1CEBD9E625CCCC42003903F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CEBD9E525CCCC42003903F0 /* TravelJournal2.0.app */,
+				1CEBD9ED25CCCC42003903F0 /* TravelJournal2.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CEBD9E725CCCC42003903F0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1CEBD9E825CCCC42003903F0 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		1CEBD9EE25CCCC42003903F0 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1CEBD9EF25CCCC42003903F0 /* Info.plist */,
+				1CEBD9F025CCCC42003903F0 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CEBD9E425CCCC42003903F0 /* TravelJournal2.0 (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CEBD9F925CCCC42003903F0 /* Build configuration list for PBXNativeTarget "TravelJournal2.0 (iOS)" */;
+			buildPhases = (
+				1CEBD9E125CCCC42003903F0 /* Sources */,
+				1CEBD9E225CCCC42003903F0 /* Frameworks */,
+				1CEBD9E325CCCC42003903F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TravelJournal2.0 (iOS)";
+			productName = "TravelJournal2.0 (iOS)";
+			productReference = 1CEBD9E525CCCC42003903F0 /* TravelJournal2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CEBD9EC25CCCC42003903F0 /* TravelJournal2.0 (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CEBD9FC25CCCC42003903F0 /* Build configuration list for PBXNativeTarget "TravelJournal2.0 (macOS)" */;
+			buildPhases = (
+				1CEBD9E925CCCC42003903F0 /* Sources */,
+				1CEBD9EA25CCCC42003903F0 /* Frameworks */,
+				1CEBD9EB25CCCC42003903F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TravelJournal2.0 (macOS)";
+			productName = "TravelJournal2.0 (macOS)";
+			productReference = 1CEBD9ED25CCCC42003903F0 /* TravelJournal2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CEBD9D925CCCC3D003903F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1CEBD9E425CCCC42003903F0 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1CEBD9EC25CCCC42003903F0 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 1CEBD9DC25CCCC3D003903F0 /* Build configuration list for PBXProject "TravelJournal2.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CEBD9D825CCCC3D003903F0;
+			productRefGroup = 1CEBD9E625CCCC42003903F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CEBD9E425CCCC42003903F0 /* TravelJournal2.0 (iOS) */,
+				1CEBD9EC25CCCC42003903F0 /* TravelJournal2.0 (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CEBD9E325CCCC42003903F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CEBD9F525CCCC42003903F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CEBD9EB25CCCC42003903F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CEBD9F625CCCC42003903F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CEBD9E125CCCC42003903F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CEBD9F325CCCC42003903F0 /* ContentView.swift in Sources */,
+				1CEBD9F125CCCC42003903F0 /* TravelJournal2_0App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CEBD9E925CCCC42003903F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CEBD9F425CCCC42003903F0 /* ContentView.swift in Sources */,
+				1CEBD9F225CCCC42003903F0 /* TravelJournal2_0App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1CEBD9F725CCCC42003903F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CEBD9F825CCCC42003903F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1CEBD9FA25CCCC42003903F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SL23D6X5G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.fulcherberguerfernanda.TravelJournal2-0";
+				PRODUCT_NAME = TravelJournal2.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CEBD9FB25CCCC42003903F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SL23D6X5G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.fulcherberguerfernanda.TravelJournal2-0";
+				PRODUCT_NAME = TravelJournal2.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CEBD9FD25CCCC42003903F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6SL23D6X5G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.fulcherberguerfernanda.TravelJournal2-0";
+				PRODUCT_NAME = TravelJournal2.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1CEBD9FE25CCCC42003903F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6SL23D6X5G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.fulcherberguerfernanda.TravelJournal2-0";
+				PRODUCT_NAME = TravelJournal2.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CEBD9DC25CCCC3D003903F0 /* Build configuration list for PBXProject "TravelJournal2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CEBD9F725CCCC42003903F0 /* Debug */,
+				1CEBD9F825CCCC42003903F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CEBD9F925CCCC42003903F0 /* Build configuration list for PBXNativeTarget "TravelJournal2.0 (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CEBD9FA25CCCC42003903F0 /* Debug */,
+				1CEBD9FB25CCCC42003903F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CEBD9FC25CCCC42003903F0 /* Build configuration list for PBXNativeTarget "TravelJournal2.0 (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CEBD9FD25CCCC42003903F0 /* Debug */,
+				1CEBD9FE25CCCC42003903F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CEBD9D925CCCC3D003903F0 /* Project object */;
+}
