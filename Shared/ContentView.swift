@@ -13,6 +13,7 @@ struct ContentView: View {
             Header()
             
             Categories()
+                .padding(.top, 20)
             
             
             ScrollView(.horizontal, showsIndicators: false) {
@@ -34,22 +35,26 @@ struct ContentView: View {
             .padding(.top, 20)
             
             
-            VStack {
+            VStack(alignment: .leading) {
                 
-                Text("Things to do...")
-                    .font(.system(size: 20, weight: .bold, design: .rounded))
+                Text("Things To Do...")
+                    .font(.system(size: 25, weight: .bold, design: .rounded))
                     .foregroundColor(Color.green)
+                    .padding(.leading, 20)
                 
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                 
-                HStack (spacing: 15){
+                HStack (spacing: 15 ){
                     Card4()
                     Card5()
                     Card6()
                     
                     }
                 }
+                
+                .padding(.top, 30)
+                
             }
         }
      }
