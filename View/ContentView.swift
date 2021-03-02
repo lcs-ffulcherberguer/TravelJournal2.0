@@ -9,11 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
+        
         VStack {
             Header()
             
-            Categories()
-                .padding(.top, 20)
+            //Categories()
+                //.padding(.top, 20)
             
             
             ScrollView(.horizontal, showsIndicators: false) {
@@ -56,16 +58,17 @@ struct ContentView: View {
                 .padding(.top, 30)
                 
             }
-        }
+       
      }
 }
-
+        
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
+        static var previews: some View {
         ContentView()
-    }
-}
-
+              }
+           }
+    
+    
 struct Header: View {
     var body: some View {
     
@@ -85,32 +88,6 @@ struct Header: View {
      }
 
 
-struct Home: View {
-    @State var selectedtab = "home"
-    
-    var boby: some View {
-        
-        TabView
-        
-        
-        
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
 }
 
@@ -197,6 +174,9 @@ struct Card2: View {
 }
 
 struct Card4: View {
+    
+    @State var hikesTab = false
+    
     var body: some View {
         ZStack {
             VStack{
@@ -215,14 +195,32 @@ struct Card4: View {
                 Image("Hiking")
                     .resizable()
                     .frame(width: 30, height: 80)
-                Text("Hikes")
-                    .font(.system(size: 16, weight: .bold, design: .rounded))
-                    .padding(.top, 10)
+                
+                
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Text("Hikes")
+                        .font(.system(size: 14, weight: .bold, design: .rounded))
+                        .foregroundColor(.black)
+                        .padding(.top, 10)
+                        .background(Color(#colorLiteral(red: 0.721568644, green: 0.8862745166, blue: 0.5921568871, alpha: 1)))
+                        .frame(width: 60, height: 30)
+                        .cornerRadius(20)
+                    sheet(isPresented: $hikesTab) {
+                        hikesTab()
+                    }
+                    
+                    
+                    })
+
+                    
+                
                 
             }
+            
             .frame(width: 100, height: 150)
             .background(Color.white)
             .cornerRadius(20)
+            
             
         }
     }
@@ -271,3 +269,6 @@ struct Card6: View {
         .frame(width: 100, height: 140)
     }
 }
+
+
+

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1C0034BE25EE78A400762A72 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0034BD25EE78A400762A72 /* Location.swift */; };
 		1C0034BF25EE78A400762A72 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0034BD25EE78A400762A72 /* Location.swift */; };
+		1C112B3425EE8976004B4C7F /* hikesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C112B3325EE8976004B4C7F /* hikesTab.swift */; };
+		1C112B3525EE8976004B4C7F /* hikesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C112B3325EE8976004B4C7F /* hikesTab.swift */; };
 		1CEBD9F125CCCC42003903F0 /* TravelJournal2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBD9DE25CCCC3D003903F0 /* TravelJournal2_0App.swift */; };
 		1CEBD9F225CCCC42003903F0 /* TravelJournal2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBD9DE25CCCC3D003903F0 /* TravelJournal2_0App.swift */; };
 		1CEBD9F325CCCC42003903F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBD9DF25CCCC3D003903F0 /* ContentView.swift */; };
@@ -20,6 +22,7 @@
 /* Begin PBXFileReference section */
 		1C0034BD25EE78A400762A72 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		1C0034C725EE7A5A00762A72 /* locations.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = locations.geojson; sourceTree = "<group>"; };
+		1C112B3325EE8976004B4C7F /* hikesTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hikesTab.swift; sourceTree = "<group>"; };
 		1CEBD9DE25CCCC3D003903F0 /* TravelJournal2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelJournal2_0App.swift; sourceTree = "<group>"; };
 		1CEBD9DF25CCCC3D003903F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1CEBD9E025CCCC42003903F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				1CEBD9DF25CCCC3D003903F0 /* ContentView.swift */,
+				1C112B3325EE8976004B4C7F /* hikesTab.swift */,
 				1CEBD9E025CCCC42003903F0 /* Assets.xcassets */,
 			);
 			path = View;
@@ -209,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C112B3425EE8976004B4C7F /* hikesTab.swift in Sources */,
 				1CEBD9F325CCCC42003903F0 /* ContentView.swift in Sources */,
 				1C0034BE25EE78A400762A72 /* Location.swift in Sources */,
 				1CEBD9F125CCCC42003903F0 /* TravelJournal2_0App.swift in Sources */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C112B3525EE8976004B4C7F /* hikesTab.swift in Sources */,
 				1CEBD9F425CCCC42003903F0 /* ContentView.swift in Sources */,
 				1C0034BF25EE78A400762A72 /* Location.swift in Sources */,
 				1CEBD9F225CCCC42003903F0 /* TravelJournal2_0App.swift in Sources */,
