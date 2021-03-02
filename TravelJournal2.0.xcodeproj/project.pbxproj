@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0034BE25EE78A400762A72 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0034BD25EE78A400762A72 /* Location.swift */; };
+		1C0034BF25EE78A400762A72 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0034BD25EE78A400762A72 /* Location.swift */; };
 		1CEBD9F125CCCC42003903F0 /* TravelJournal2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBD9DE25CCCC3D003903F0 /* TravelJournal2_0App.swift */; };
 		1CEBD9F225CCCC42003903F0 /* TravelJournal2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBD9DE25CCCC3D003903F0 /* TravelJournal2_0App.swift */; };
 		1CEBD9F325CCCC42003903F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBD9DF25CCCC3D003903F0 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C0034BD25EE78A400762A72 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		1C0034C725EE7A5A00762A72 /* locations.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = locations.geojson; sourceTree = "<group>"; };
 		1CEBD9DE25CCCC3D003903F0 /* TravelJournal2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelJournal2_0App.swift; sourceTree = "<group>"; };
 		1CEBD9DF25CCCC3D003903F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1CEBD9E025CCCC42003903F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,10 +48,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C0034C225EE78B800762A72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CEBD9DF25CCCC3D003903F0 /* ContentView.swift */,
+				1CEBD9E025CCCC42003903F0 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C0034C525EE78F100762A72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C0034C725EE7A5A00762A72 /* locations.geojson */,
+				1C0034BD25EE78A400762A72 /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		1CEBD9D825CCCC3D003903F0 = {
 			isa = PBXGroup;
 			children = (
 				1CEBD9DD25CCCC3D003903F0 /* Shared */,
+				1C0034C525EE78F100762A72 /* Model */,
+				1C0034C225EE78B800762A72 /* View */,
 				1CEBD9E725CCCC42003903F0 /* iOS */,
 				1CEBD9EE25CCCC42003903F0 /* macOS */,
 				1CEBD9E625CCCC42003903F0 /* Products */,
@@ -58,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				1CEBD9DE25CCCC3D003903F0 /* TravelJournal2_0App.swift */,
-				1CEBD9DF25CCCC3D003903F0 /* ContentView.swift */,
-				1CEBD9E025CCCC42003903F0 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -188,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CEBD9F325CCCC42003903F0 /* ContentView.swift in Sources */,
+				1C0034BE25EE78A400762A72 /* Location.swift in Sources */,
 				1CEBD9F125CCCC42003903F0 /* TravelJournal2_0App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CEBD9F425CCCC42003903F0 /* ContentView.swift in Sources */,
+				1C0034BF25EE78A400762A72 /* Location.swift in Sources */,
 				1CEBD9F225CCCC42003903F0 /* TravelJournal2_0App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -85,48 +85,33 @@ struct Header: View {
      }
 
 
-struct Categories: View {
-    var body: some View {
-        HStack (spacing: 50){
-            VStack(alignment: .leading){
-                Text("Popular")
-                    .font(.system(size: 16, weight: .bold, design: .rounded))
-                    .foregroundColor(Color.green)
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(width: 20, height: 6)
-                    .foregroundColor(Color.green)
-                    .padding(.top, -3)
-                
-                
-            }
-            VStack {
-                Text("Map")
-                    .font(.system(size: 16, weight: .medium, design: .rounded))
-                    .foregroundColor(Color.gray)
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(width: 20, height: 6)
-                    .foregroundColor(Color.green)
-                    .opacity(0)
-                    .padding(.top, -3)
-                
-            }
-            VStack {
-                Text("Journal")
-                    .font(.system(size: 16, weight: .medium, design: .rounded))
-                    .foregroundColor(Color.gray)
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(width: 20, height: 6)
-                    .foregroundColor(Color.green)
-                    .opacity(0)
-                    .padding(.top, -3)
-                
-            }
-            
-            Spacer()
-        }
+struct Home: View {
+    @State var selectedtab = "home"
+    
+    var boby: some View {
         
-        .padding(.leading, 30)
+        TabView
+        
+        
+        
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 
